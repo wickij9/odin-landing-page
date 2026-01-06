@@ -3,21 +3,28 @@
     <head>
         <meta charset="utf-8">
         <title>LANDING PAGE</title>
-        <link ref="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css">
     </head>
-
     <body>
-        <div class="header">My Photos</div>
-            <ul>
-                <li>one</li>
-                <li>two</li>
-                <li>three</li>
+        <main class="header">
+            <div class="logo">My Photos</div>
+            <ul class="links">
+                <li><a href="#">one</a></li>
+                <li><a href="#">two</a></li>
+                <li><a href="#">three</a></li>
             </ul>
-        <div class="main">These are photos I took</div>
-        <div class="secondary">These photos are from a couple of holidays I went on last year - Puglia and Athens.</div>
-        <div class="top-button">
-            <button>Sign up</button>
-        </div>
-        <img src="img/athens.jpeg" alt="image of athens skyline">
+        </main>
+        <section class="about">
+            <section class="left-about">
+                <div class="main">These are photos I took</div>
+                <div class="secondary">These photos are from holidays I went on last year to Puglia and Athens.</div>
+                <div class="top-button">
+                <button>Sign up</button>
+            </section>
+            <section class="right-about">
+                <img src="img/athens.jpeg" alt="image of athens skyline">
+            </section>
+        </section>
+        <div class="footer">Copyright JOWI Project 2025</div>
     </body>
 </html>
